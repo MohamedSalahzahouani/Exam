@@ -1,0 +1,368 @@
+.body {
+  background-color: #2b2e34;
+  padding-top: 14px;
+  margin-top: 14px;
+  padding-right: 24px;
+  padding-left: 24px;
+  margin: 0;
+}
+#title{
+  font-size: 42px;
+  width: 954px;
+  height: 57px;
+  weight: 700px;
+  text-align: center;
+  line-height: 57.29px;
+  margin-bottom: 10px;
+  color: #ffff;
+  margin-left: 200px;
+  font-family: Nuinto;
+}
+.paragraph-1 {
+  font-size: 20px;
+  width: 954px;
+  height: 27px;
+  weight: 700px;
+  text-align: center;
+  line-height: 27.28px;
+  color: #afc0e2;
+  margin-bottom: 80px;
+  margin-left: 190px;
+  font-family: Nuinto;
+}
+.logo {
+  width: 168px;
+  height: 44px;
+  top: 36px;
+  left: 120px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 40px;
+}
+.Home {
+  color: #ffff;
+  Property 1="Default";
+  width: Hug (91px)px;
+  height: Fixed (44px)px;
+  padding: 11px 19px 9px 22px;
+  gap: 10px;
+  opacity: 0px; 
+  display: flex;
+
+}
+.Product {
+  color: #ffff;
+  Property 1="Active";
+  width: Hug (113px)px;
+  height: Fixed (44px)px;
+  padding: 11px 19px 9px 19px;
+  gap: 10px;
+  opacity: 0px;
+ display: flex;
+  
+}
+.FAQ {
+  color: #ffff;
+  Property 1="Default";
+  width: Hug (75px)px;
+  height: Fixed (44px)px;
+  padding: 11px 19px 9px 19px;
+  gap: 10px;
+  opacity: 0px;  
+}
+.Contact {
+  color: #ffff;
+  Property 1="Default";
+  width: Hug (103px)px;
+  height: Fixed (44px)px;
+  padding: 11px 19px 9px 19px;
+  gap: 10px;
+  opacity: 0px;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+div ul{
+  list-style: none;
+  padding: 0;
+}
+div ul li{
+  display: inline;
+  margin: 0 15px;
+}
+div ul li a {
+  text-decoration: none;
+  margin-right: 20px;
+  color: #FFFFFF;
+
+  
+}
+div ul li a:hover {
+  color: red;
+}
+.paragraph-2{
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 21.82px;
+  text-align: center;
+  width: 300px;
+  height: 59px;
+  top: 83px;
+  gap: 0px;
+  opacity: 0px;
+  color: #AFC0E2;
+}
+.product1{
+  border-radius: 8px;
+  width: 300px;
+  height: 160px;
+  top: 22px;
+  gap: 0px;
+  background: #0D1423;
+}
+.product2{
+  border-radius: 8px;
+  width: 300px;
+  height: 160px;
+  top: 22px;
+  gap: 0px;
+  background: #0D1423;
+
+  
+}
+.Product3{
+  border-radius: 8px;
+  width: 300px;
+  height: 160px;
+  top: 22px;
+  gap: 0px;
+  background: #0D1423;
+  
+}
+.Products{
+  display: flex;
+  justify-content: center;
+  width: Fill (954px)px;
+  height: Hug (182px)px;
+  gap: 27px;
+  opacity: 0px;
+  margin-bottom: 100px;
+
+}
+#footer{
+  width: 1192px;
+  height: 100.71px;
+  top: 785.29px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+.footerImage{
+  width: 519.19px;
+  height: 199.93px;
+  /*top: 687px;*/
+  left: 331px;
+  padding: 1px 0px 0px 0px;
+  gap: 0px;
+  opacity: 0px;
+  display: block;
+  margin: 0px auto;
+  box-shadow: black;
+  left:50px;
+  top: 100px;
+  position: relative;
+}
+.picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55px;
+  height: 38.5px;
+  /*top: 2.75px;*/
+  gap: 0px;
+  opacity: 0px;
+  /*left:10px;*/
+  position: relative;
+  top: -25px; 
+  left: 1Opx;
+  border-radius: 5px;
+ 
+}
+.div-footer{ 
+  background-color:  #757D8E; /* Couleur de fond */
+  width: 75rem;  /* Largeur*/
+  height: 10rem; /* Hauteur*/
+  overflow: hidden;
+  Top:1rem; 
+  border-radius: 70% 70% 0px 0px;
+  border-radius: 10rem 10rem 0 0;
+}
+/* Animation */
+@keyframes pulse {
+  0% {
+      transform: scale(1);
+  }
+  50% {
+      transform: scale(1.1);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
+.body {
+  animation: pulse 3s ease-in-out ;
+}
+/* responsive web design for screen of tablets*/
+  @media screen and (max-width: 768px) {
+    .body{
+      font-family: Nuinto;
+      background-color: #2b2e34;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+      margin: 0;
+    }
+    .Products{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+      max-width: 900px;
+    }
+    .product1{
+      background: #0D1423;
+      width: 714px;
+      height: 182px;
+      border-radius: 8px;
+      padding: 20px;
+      text-align: center;
+      color: white;
+      position: relative;
+      margin-bottom: 20px;
+    }
+    .product2{
+      display: flex;
+      justify-content: space-between;
+      width: 343.5px;
+      height: 182px;
+    }
+    .Product3{
+      width: 343.5px;
+      height: 182px;
+      padding: 20px;
+      flex: 1;
+      position: relative;
+    }
+    .picture{
+      width: 5Opx;
+      height: auto;
+      position: absolute;
+      top: -25px;
+      transform: translateX(-50%);
+    }
+    .nav{
+      width: Fixed (714px)px;
+      height: Hug (568px)px;
+      top: 191px;
+      left: 60px;
+      gap: 53px;
+      opacity: 0px;
+    }
+    .nav-section{
+      width: Fixed (714px)px;
+      height: Hug (568px)px;
+      top: 191px;
+      left: 60px;
+      gap: 53px;
+      opacity: 0px;
+    }
+    #title{
+      width: 714px;
+      height: 57px;
+    }
+    .paragraph-1 {
+      width: 714px;
+    }
+  }
+/* responsive web design for screen of phones*/
+@media screen and (max-width: 480px) {
+  .body{
+    font-family: Nuinto;
+    background-color: #2b2e34;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+  }
+  .Products{
+    display: inline;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 700px;
+  }
+  .product1{
+    background: #0D1423;
+    width: Fill (431px)px;
+    height: Fixed (150px)px;
+    gap: 27px;
+    width: 431px;
+  }
+  .product2{
+    width: Fill (431px)px;
+    height: Hug (150px)px;
+    gap: 27px;
+  }
+  .Product3{
+    width: Fill (431px)px;
+    height: Hug (150px)px;
+    gap: 27px;
+  }
+  .picture{
+    width: 5Opx;
+    position: absolute;
+    top: -25px;
+    transform: translateX(-50%);
+    width: 55px;
+    height: 38.5px;
+    top: 2.75px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+  .nav{
+    width: Fixed (431px)px;
+    height: Hug (741px)px;
+    top: 115px;
+    left: 30px;
+    gap: 53px;
+    opacity: 0px;
+  }
+  .nav-section{
+    width: Fill (431px)px;
+    height: Hug (132px)px;
+    gap: 14px;
+  }
+  #title{
+    width: 714px;
+    height: 57px;
+  }
+  .paragraph-1 {
+    width: 714px;
+  }
+  .paragraph-2{
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19.1px;
+    text-align: center;
+  }
+}
+
+  
+
